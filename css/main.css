@@ -1,0 +1,217 @@
+.spacerDiv {
+    padding: 10px;
+}
+
+.coverLink {
+    color:#0071E3;
+}
+
+.coverImage0 {
+    object-fit: cover;
+    max-height: 400px;
+    max-width: 1140px;
+    width: 100%;
+    border-radius: 40px;
+    filter: sepia(42%) saturate(225%) brightness(70%);
+}
+
+.coverImage1 {
+    object-fit: cover;
+    max-height: 300px;
+    max-width: 1140px;
+    width: 100%;
+    border-radius: 40px;
+    filter: sepia(42%) saturate(225%) brightness(70%);
+}
+
+.coverImage2 {
+    object-fit: cover;
+    max-height: 300px;
+    max-width: 1140px;
+    width: 100%;
+    border-radius: 40px;
+    filter: sepia(42%) saturate(225%) brightness(70%);
+}
+
+.coverImageContainer {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.coverImageText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%
+}
+
+.coverHeading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%
+}
+
+.columnContainer {
+    border: 2px solid black;
+    border-radius: 40px;
+}
+
+.columnContainerGrey {
+    border: 2px solid rgb(245, 245, 247);
+    border-radius: 40px;
+}
+
+.greyBackground {
+    background-color: rgb(245, 245, 247);
+    color: black;
+}
+
+.blackBackground {
+    background-color: black;
+    color: white;
+}
+
+.customBackground1 {
+    background-image: linear-gradient(15deg, #032B4E, #381D3E);
+    color:white;
+}
+
+.customBackground2 {
+    background-image: linear-gradient(225deg, #032B4E, #381D3E);
+    color:white;
+}
+
+.customBackground3 {
+    background-image: linear-gradient(100deg, #032B4E, #381D3E);
+    color:white;
+}
+
+.rowPadding {
+    padding: 0px 13px 0px 13px;
+}
+
+.quote {
+    font-size: 64px;
+    padding: 50px 100px 50px 100px;
+}
+
+.maxWidth {
+    max-width: 1140px;
+    position: relative;
+    margin: auto;
+}
+
+.maxWidthLeftAlign {
+    max-width: 1140px;
+}
+
+.blackBackground {
+    background-color: black;
+    color: white;
+}
+
+.standardContainer {
+    padding: 50px 100px 50px 100px;
+    background-color: rgb(245, 245, 247);
+    border-radius: 40px;
+}
+
+.videoFormat {
+    aspect-ratio: 16 / 9;
+    width: 100%;
+    border-radius: 40px;
+}
+
+.imageFormat {
+    width: 100%;
+    border-radius: 40px;
+    border: solid lightgray 3px;
+}
+
+#logo {
+    font-size: 48px;
+}
+
+.coverImageSpacerDiv {
+    padding: 52px;
+}
+
+.navbar {
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(20px) saturate(160%) contrast(45%) brightness(140%);
+    -webkit-backdrop-filter: blur(20px) saturate(160%) contrast(45%) brightness(140%);
+}
+
+.figure {
+    padding: 5px !important;
+}
+
+.imageFormatMultimodal {
+    width: 285px;
+    border-radius: 20px;
+}
+
+@supports (-webkit-backdrop-filter: blur(30px) saturate(160%) contrast(45%) brightness(140%)) or
+  (backdrop-filter: blur(30px) saturate(160%) contrast(45%) brightness(140%)) {
+  .navbar-b.navbar-reduce {
+    transition: all 0.5s ease-in-out;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(20px) saturate(160%) contrast(45%) brightness(140%);
+    -webkit-backdrop-filter: blur(20px) saturate(160%) contrast(45%) brightness(140%);
+  }
+}
+
+
+@media only screen and (min-width: 1401px) {
+}
+
+@media only screen and (max-width: 1400px) {
+}
+
+@media only screen and (max-width: 1200px) {
+}
+
+@media only screen and (max-width: 992px) {
+}
+
+@media only screen and (max-width: 768px) {
+    .quote {
+        font-size: 36px;
+        padding: 25px 50px 25px 50px
+    }
+
+    .standardContainer {
+        padding: 12px 25px 12px 25px;
+    }
+
+    .responsiveMarginTop {
+        margin-top: 10px;
+    }
+
+    .smallerNames {
+        font-size: 16px;
+    }
+
+
+ }
+
+@media only screen and (max-width: 576px) {
+    .quote {
+        font-size: 36px;
+        padding: 25px 50px 25px 50px
+    }
+
+    .responsiveMarginTop {
+        margin-top: 10px;
+    }
+
+    .standardContainer {
+        padding: 12px 25px 12px 25px;
+    }
+}
